@@ -1,0 +1,23 @@
+{
+  "name": "treasure_slots",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx scripts/cli.ts dev",
+    "build": "tsx scripts/cli.ts build"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "@types/prompts": "^2.4.9",
+    "prompts": "^2.4.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.4",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "@pixi/spine-pixi": "^2.1.1",
+    "pixi.js": "^8.12.0"
+  }
+}
